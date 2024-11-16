@@ -7,8 +7,11 @@ The project is organized as follows:
 node-app/
 │
 ├── greeting.js       # Main Node.js application code
+
 ├── Dockerfile        # Dockerfile to build the container image
+
 ├── docker-compose.yml # Docker Compose configuration
+
 └── README.md         # Project documentation
 # Requirements 📋
 To run this project locally or with Docker, you need:
@@ -21,14 +24,15 @@ git clone https://github.com/AlexandraN2001/greeting-js.git
 cd greeting-js
 To run the program locally with Node.js, use:
 node greeting.js
-# Dockerization
-# Step 1: Build the Docker Image
-docker build -t greeting-js .
-# Step 2: Tag the Image
-docker tag greeting-js alenac07/greeting-js:latest
-# Step 3: Push the Image to Docker Hub
-docker push alenac07/greeting-js:latest
+# Docker Hub
 # Docker Hub Link
 Find the Dockerized version of the project at:
 https://hub.docker.com/r/alenac07/greeting-js 
+# Step 1: Download the Image 📦
+Download the image from Docker Hub with the following command:
+docker pull alenac07/greeting-js:latest
+This will pull the greeting-js image from your Docker Hub repository.
+# Step 2: Run the Container 🚀
+After downloading the image, you can run the container with this command:
+docker run alenac07/greeting-js:latest
 
