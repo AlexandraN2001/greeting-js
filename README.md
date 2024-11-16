@@ -6,6 +6,7 @@ Access the deployed app at: https://greeting-js.onrender.com/
 The project is organized as follows:
 
 ProjectsJS/
+
 │
 ├── greeting.js       # Main Node.js application code
 
@@ -23,8 +24,11 @@ To run this project locally or with Docker, you need:
 To clone this repository to your local machine, use the following commands:
 
 git clone https://github.com/AlexandraN2001/greeting-js.git
+
 cd greeting-js
+
 To run the program locally with Node.js, use:
+
 node greeting.js
 
 # Docker Hub
