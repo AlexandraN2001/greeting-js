@@ -17,8 +17,11 @@ ProjectsJS/
 └── README.md         # Project documentation
 # Requirements 📋
 To run this project locally or with Docker, you need:
+
 -Node.js (v14 or higher) 🟢
+
 -Docker 🐳
+
 -Git (to clone the repository)
 # How to Clone and Run
 To clone this repository to your local machine, use the following commands:
