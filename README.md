@@ -1,10 +1,10 @@
-# Node.js Docker App 🌐
-Node.js Docker App is a simple HTTP server application built with Node.js. It responds with the message: "Hello, my name is Alexandra". This project is containerized with Docker, making it easy to deploy and run across various environments. 🚀
+# greeting.js Docker App 🌐
+greeting.js is a simple HTTP server application built with Node.js. It responds with the message: "Hello, my name is Alexandra". This project is containerized with Docker, making it easy to deploy and run across various environments. 🚀
 # Deployment on Render 🌍
 Access the deployed app at: https://greeting-js.onrender.com/ 
 # Project Structure 📁
 The project is organized as follows:
-node-app/
+ProjectsJS/
 │
 ├── greeting.js       # Main Node.js application code
 
